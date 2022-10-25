@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.titulo_principal {
+    color: #fff;
+    font-size: 100px;
+    font-family: fantasy;
+    text-shadow: 0 0 20px #000;
+}
+
+.boton {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.contenedor-info {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.boton_compra {
+   font-size: 20px;
+}
